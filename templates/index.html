@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Failure Readmission Predictor</title>
+</head>
+<body style="font-family: sans-serif; text-align: center; margin-top: 50px;">
+    <h1> Heart Failure Readmission Predictor</h1>
+    <form action="/predict" method="post">
+        <input type="number" step="any" name="age" placeholder="Age" required><br><br>
+        <input type="number" step="any" name="anaemia" placeholder="Anaemia (0 or 1)" required><br><br>
+        <input type="number" step="any" name="creatinine_phosphokinase" placeholder="CPK Level" required><br><br>
+        <input type="number" step="any" name="diabetes" placeholder="Diabetes (0 or 1)" required><br><br>
+        <input type="number" step="any" name="ejection_fraction" placeholder="Ejection Fraction (%)" required><br><br>
+        <input type="number" step="any" name="high_blood_pressure" placeholder="High BP (0 or 1)" required><br><br>
+        <input type="number" step="any" name="platelets" placeholder="Platelet Count" required><br><br>
+        <input type="number" step="any" name="serum_creatinine" placeholder="Serum Creatinine" required><br><br>
+        <input type="number" step="any" name="serum_sodium" placeholder="Serum Sodium" required><br><br>
+        <input type="number" step="any" name="sex" placeholder="Sex (0=Female, 1=Male)" required><br><br>
+        <input type="number" step="any" name="smoking" placeholder="Smoking (0 or 1)" required><br><br>
+        <input type="number" step="any" name="time" placeholder="Follow-up Period (days)" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction_text %}
+        <h2 style="margin-top:20px;">{{ prediction_text }}</h2>
+    {% endif %}
+</body>
+</html>
