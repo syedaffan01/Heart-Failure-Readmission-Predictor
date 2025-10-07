@@ -91,12 +91,12 @@ or
 ## ⚙️ Installation & Setup
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/<your-username>/heart-failure-readmission-predictor.git
+   git clone https://github.com/syedaffan01/Heart-Failure-Readmission-Predictor.git
    ```
 
 2. Navigate into the project folder:  
    ```bash
-   cd heart-failure-readmission-predictor
+   cd Heart-Failure-Readmission-Predictor
    ```
 
 3. Create a virtual environment:  
@@ -140,7 +140,10 @@ A clean and minimal HTML interface built using Flask templates.
 
 ## 📸 Screenshots
 - 📷 App interface screenshot  
+<img width="1887" height="943" alt="Screenshot 2025-10-08 012154" src="https://github.com/user-attachments/assets/16e4a347-088c-4402-a5a3-5e1318b91e08" />
+
 - 📷 Prediction result example  
+<img width="1906" height="947" alt="Screenshot 2025-10-08 012324" src="https://github.com/user-attachments/assets/4511dcb6-1663-4359-bdd0-8663283598ad" />
 
 ## 🧑‍💻 Developed By
 Syed Shah Rafi Uddin Hussain
