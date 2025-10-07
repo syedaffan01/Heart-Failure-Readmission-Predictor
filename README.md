@@ -107,12 +107,12 @@ or
 
 1️⃣ Clone this repository:
 
-git clone https://github.com/<your-username>/heart-failure-readmission-predictor.git
+git clone https://github.com/syedaffan01/Heart-Failure-Readmission_Predictor.git
 
 
 2️⃣ Navigate into the project folder:
 
-cd heart-failure-readmission-predictor
+cd Heart-Failure-Readmission_Predictor
 
 
 3️⃣ Create a virtual environment:
