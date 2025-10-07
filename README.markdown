@@ -91,12 +91,12 @@ or
 ## ⚙️ Installation & Setup
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/<your-username>/heart-failure-readmission-predictor.git
+   git clone https://github.com/syedaffan01/Heart-Failure-Readmission-Predictor.git
    ```
 
 2. Navigate into the project folder:  
    ```bash
-   cd heart-failure-readmission-predictor
+   cd Heart-Failure-Readmission-Predictor
    ```
 
 3. Create a virtual environment:  
